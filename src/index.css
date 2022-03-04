@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #134517;
+  background: radial-gradient(ellipse at center, #308845 0%, #133116 100%);
+  background-size: cover;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  width: 100%;
+
+  position: relative;
+  overflow: auto;
+}
+
+#root {
+  width: 100%;
+  overflow: auto;
+}
+
+main {
+  min-width: 940px;
+  position: relative;
+}
+
+li {
+  list-style: none;
+}
